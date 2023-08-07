@@ -29,7 +29,7 @@ function Topbar() {
         <OrganizationSwitcher
         appearance={{
           elements: {
-            organizationSwitcherTrigger: 'py-7 px-4'
+            organizationSwitcherTrigger: 'py-6 px-4'
           }
         }} 
         />
