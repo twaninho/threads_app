@@ -41,7 +41,7 @@ const Comment = ( { threadId, currentUserImg, currentUserId
     const onSubmit = async (values: z.infer<typeof CommentValidation>) => {
     await addCommentToThread(threadId, values.thread, JSON.parse(currentUserId), pathname)
 
-    router.push('/')
+    // router.push('/')
 
     form.reset();
     }
